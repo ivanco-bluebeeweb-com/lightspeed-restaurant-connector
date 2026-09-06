@@ -1,3 +1,9 @@
-# Lightspeed Restaurant Connector - AUTH_AND_CREDENTIALS.md
+# Lightspeed Restaurant Connector — Auth & Credentials Standard
 
-Standard documentation for Lightspeed Restaurant Connector in Imperal Cloud.
+**Compliance:** AUTH_AND_CREDENTIALS_STANDARD.md (B1–B10)
+
+## Схема аутентификации
+- **Метод:** OAuth 2.0 Authorization Code Grant
+- **Хранение:** Секреты сохраняются изолированно в хранилище секретов платформы Imperal.
+- **Валидация:** При сохранении ключа выполняется тестовый запрос `GET /v1/account`.
+- **Отключение:** Удаление локальных ключей без воздействия на аккаунт вендора.

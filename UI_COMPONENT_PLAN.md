@@ -1,3 +1,8 @@
-# Lightspeed Restaurant Connector - UI_COMPONENT_PLAN.md
+# Lightspeed Restaurant Connector — UI Component Plan
 
-Standard documentation for Lightspeed Restaurant Connector in Imperal Cloud.
+**Compliance:** UI_INTERFACE_STANDARD.md
+
+## Интерфейс
+- **Левый сайдбар:** Форма подключения на всю ширину контейнера, все инпуты с лейблами и контекстными плейсхолдерами.
+- **Центральная зона:** Карточки статуса подключения, таблица сущностей (заказы (/orders)), журнал операций.
+- **Модальные окна:** Предупреждения и подтверждения для любых деструктивных или модифицирующих действий.
